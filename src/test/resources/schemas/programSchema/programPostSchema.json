@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "programId": {
+      "type": "number"
+    },
+    "programName": {
+      "type": "string"
+    },
+    "programDescription": {
+      "type": "string"
+    },
+    "programStatus": {
+      "type": "string"
+    },
+    "creationTime": {
+      "type": "string"
+    },
+    "lastModTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "programId",
+    "programName",
+    "programDescription",
+    "programStatus",
+    "creationTime",
+    "lastModTime"
+  ]
+}

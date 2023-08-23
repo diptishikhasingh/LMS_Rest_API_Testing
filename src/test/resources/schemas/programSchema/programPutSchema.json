@@ -1,0 +1,68 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1690330635.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"programId",
+		"programName",
+		"programDescription",
+		"programStatus",
+		"creationTime",
+		"lastModTime"
+	],
+	"properties": {
+		"programId": {
+			"$id": "#root/programId", 
+			"title": "Programid", 
+			"type": "integer",
+			"examples": [
+				14427
+			],
+			"default": 0
+		},
+		"programName": {
+			"$id": "#root/programName", 
+			"title": "Programname", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Jun23-APICollectors-SDET-958"
+			],
+			"pattern": "^.*$"
+		},
+		"programDescription": {
+			"$id": "#root/programDescription", 
+			"title": "Programdescription", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Rest Assure"
+			],
+			"pattern": "^.*$"
+		},
+		"programStatus": {
+			"$id": "#root/programStatus", 
+			"title": "Programstatus", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Active"
+			],
+			"pattern": "^.*$"
+		},
+		"creationTime": {
+			"$id": "#root/creationTime", 
+			"title": "Creationtime", 
+			"type": "null",
+			"default": null
+		},
+		"lastModTime": {
+			"$id": "#root/lastModTime", 
+			"title": "Lastmodtime", 
+			"type": "null",
+			"default": null
+		}
+	}
+}
