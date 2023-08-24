@@ -30,7 +30,7 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
     When User send the HTTPsDELETE request with valid programName
     Then User validates the response with Status code 200 OK status with message
 
-  #Scenario: validating user able to delete a program with valid programId
-    #Given User is provided with the BaseUrl and the Endpoints
-    #When User send the HTTPsDELETE request with valid programId
-    #Then User validates the response with Status code 200 OK status with message
+  Scenario: validating user able to delete a program with valid programId
+    Given User is provided with the BaseUrl and the Endpoints
+    When User send the HTTPsDELETE request with valid programId
+    Then User validates the response with Status code 200 OK status with message
